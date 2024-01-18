@@ -109,7 +109,7 @@ table input {
 }
 
 .body {
-    margin: 30px 80px;
+    margin: 0 10%;
 }
 
 .card-box {
@@ -168,6 +168,8 @@ table input {
     height: 350px;
     border-radius: 20px;
     background-size: 100% 100%;
+    object-fit: cover;
+
 }
 
 section {
@@ -185,6 +187,8 @@ section {
     background-image: url(../images/choo1.png);
     height: 250px;
     background-size: 100% 100%;
+    object-fit: cover;
+
 }
 
 .img2 {
