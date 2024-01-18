@@ -1,0 +1,310 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../images/background.jpg);
+    height: 800px;
+    background-size: 100% 100%;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    color: white;
+    font-weight: 800;
+
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.search-box {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    width: 350px;
+    height: 440px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 0 rgb(187, 186, 186);
+    border-radius: 6px;
+    padding: 25px 35px 0 35px;
+
+}
+
+.search-box-title {
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(75, 75, 75);
+}
+
+.search-box-name {
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.search-box-input {
+    height: 45px;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid 230, 227, 227;
+
+}
+
+.search-box-btn {
+    display: grid;
+    justify-content: end;
+    padding: 15px 0;
+}
+
+.search-box-click {
+    background-color: #ff385c;
+    color: white;
+    width: 70px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 0;
+
+}
+
+table {
+    width: 100%;
+}
+
+table input {
+    width: 100%;
+}
+
+/*   배경 부분 end  */
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+/* 둘러보기 부분 start */
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(66, 66, 66);
+}
+
+.body {
+    margin: 30px 80px;
+}
+
+.card-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 6px;
+    box-shadow: 0 0 3px 0 rgb(170, 170, 170);
+
+}
+
+/* card-img 사진 start */
+.card-img1 {
+    background-image: url(../images/card1.jpg);
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.card-img2 {
+    background-image: url(../images/card2.jpg);
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.card-img3 {
+    background-image: url(../images/card3.jpg);
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.card-img4 {
+    background-image: url(../images/card4.jpg);
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+/* card-img 사진 end */
+
+
+.card-title {
+    display: grid;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+
+}
+
+.ad-img1 {
+    background-image: url(../images/ad1.jpg);
+    height: 350px;
+    border-radius: 20px;
+    background-size: 100% 100%;
+}
+
+section {
+    margin: 30px 0;
+}
+
+.img-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+/* img 사진 start */
+.img1 {
+    background-image: url(../images/choo1.png);
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+.img2 {
+    background-image: url(../images/choo2.png);
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+.img3 {
+    background-image: url(../images/choo3.png);
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+.img4 {
+    background-image: url(../images/choo4.png);
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+.img5 {
+    background-image: url(../images/choo5.png);
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+/* img 사진 end */
+
+
+
+.ad-img2 {
+    background-image: url(../images/ad2.png);
+    height: 300px;
+    background-size: 100% 100%;
+}
+
+.home-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+/*home-img start  */
+.home-img1 {
+    background-image: url(../images/home1.png);
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+.home-img2 {
+    background-image: url(../images/home2.png);
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+.home-img3 {
+    background-image: url(../images/home3.png);
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+.home-img4 {
+    background-image: url(../images/home4.png);
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+.home-img5 {
+    background-image: url(../images/home5.png);
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+.home-img6 {
+    background-image: url(../images/home6.png);
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+.home-img7 {
+    background-image: url(../images/home7.png);
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+.home-img8 {
+    background-image: url(../images/home8.png);
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+/*home-img end  */
+
+
+.text1 {
+    margin: 5px 0;
+    font-size: 13px;
+    color: grey;
+}
+
+.text2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.star {
+    font-size: 12px;
+    color: rgb(30, 120, 115);
+    font-weight: 800;
+    display: inline;
+}
+
+.count {
+    font-size: 12px;
+    display: inline;
+
+}
+
+.text3 {
+    font-size: 12px;
+    display: inline;
+}
